@@ -1,5 +1,5 @@
 # OK TODO: Change the name of the org 
-org: jorgesoto
+org: jorgeatcabo2021
 app: serverless-todo-app
 service: serverless-todo-app
 
@@ -25,7 +25,7 @@ provider:
   environment:
     TODOS_TABLE: Todos-${self:provider.stage}
     TODOS_CREATED_AT_INDEX: CreatedAtIndex
-    ATTACHMENT_S3_BUCKET: test-182620489580-${self:provider.stage}
+    ATTACHMENT_S3_BUCKET: serverless-c4-todo-images-182620489580-${self:provider.stage}
     SIGNED_URL_EXPIRATION: 300
 
   logs:
